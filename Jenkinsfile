@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Build'){
             steps {
-                echo 'This is a Jenkins pipeline'
+                echo 'This is a Jenkins pipeline again'
             }
         }
     }
