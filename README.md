@@ -5,8 +5,9 @@ In order to deploy this application you will need to deploy a mysql database, an
 
 ![alt text](schema.png)
 
-
 Bear in mind that you would need to pass the connection data to the application for it to work, check the code, the environment variables are there :D
+
+Small changes here
 
 ## Attributions
 Application developed based on this post https://scotch.io/tutorials/building-and-securing-a-modern-backend-api
