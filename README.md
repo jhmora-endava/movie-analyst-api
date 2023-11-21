@@ -1,4 +1,5 @@
 # movie-analyst-api
+
 API for the movie analyst application of the devops ramp up
 
 In order to deploy this application you will need to deploy a mysql database, and build the following schema:
@@ -10,4 +11,5 @@ Bear in mind that you would need to pass the connection data to the application 
 Small changes here
 
 ## Attributions
-Application developed based on this post https://scotch.io/tutorials/building-and-securing-a-modern-backend-api
+
+Application developed based on [this post](https://scotch.io/tutorials/building-and-securing-a-modern-backend-api)

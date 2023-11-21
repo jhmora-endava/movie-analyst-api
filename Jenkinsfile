@@ -3,7 +3,14 @@ pipeline {
     stages {
         stage ('Build'){
             steps {
-                echo 'This is a Jenkins pipeline again'
+                echo 'Building API'
+                sh 'npm build'
+            }
+        }
+        stage ('Test'){
+            steps{
+                echo 'Running tests'
+                sh 'npm run test'
             }
         }
     }
