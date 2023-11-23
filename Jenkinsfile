@@ -13,5 +13,10 @@ pipeline {
                 sh 'npm run test'
             }
         }
+        stage ('Build and push Docker image'){
+            steps{
+                sh 'docker build -t jhmora/ui .'
+            }
+        }
     }
 }
